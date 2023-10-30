@@ -17,14 +17,14 @@ function fromEuroToDollar(euro){
 }
 
 function fromDollarToYen(dollar){
-    let valueinyen = (dollar/oneEuroIs.USD) * oneEuroIs.JPY;
-    valueinyen = parseFloat(valueinyen.toFixed(2))
-    return valueinyen;
+    let valueInYen = (dollar/oneEuroIs.USD) * oneEuroIs.JPY;
+    valueInYen = parseFloat(valueInYen.toFixed(2))
+    return valueInYen;
 }
 function fromYenToPound(yen){
-    let valueinpound = (yen/oneEuroIs.JPY) * oneEuroIs.GBP
-    valueinpound = parseFloat(valueinpound.toFixed(2))
-    return valueinpound;
+    let valueInPound = (yen/oneEuroIs.JPY) * oneEuroIs.GBP
+    valueInPound = parseFloat(valueInPound.toFixed(2))
+    return valueInPound;
 }
 
 module.exports = { 
